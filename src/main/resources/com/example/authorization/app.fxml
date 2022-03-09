@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="579.0" style="-fx-background-color: #3AAFA9;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authorization.con_img">
+    <children>
+        <Text fx:id="logo" fill="WHITE" layoutX="14.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREATIVE CLUB" wrappingWidth="78.00912475585938">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Text>
+        <AnchorPane fx:id="registration_zone" layoutX="151.0" layoutY="84.0" prefHeight="227.0" prefWidth="277.0" style="-fx-background-color: #2B7A77;">
+            <children>
+                <Text fx:id="registr_text" fill="WHITE" layoutX="106.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wellcome" wrappingWidth="64.00912475585938">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+            <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="64.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../media/listik.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Accordion />
+        <Accordion />
+        <Accordion />
+        <Accordion />
+    </children>
+</AnchorPane>

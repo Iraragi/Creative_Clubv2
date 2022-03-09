@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="579.0" style="-fx-background-color: #3AAFA9;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authorization.registrController">
+   <children>
+      <Text fx:id="logo" fill="WHITE" layoutX="14.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREATIVE CLUB" wrappingWidth="78.00912475585938">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="registration_zone" layoutX="96.0" layoutY="59.0" prefHeight="257.0" prefWidth="385.0" style="-fx-background-color: #2B7A77;">
+         <children>
+            <Text fx:id="registr_text" fill="WHITE" layoutX="153.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration" wrappingWidth="78.00912475585938">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextField layoutX="25.0" layoutY="47.0" prefHeight="25.0" prefWidth="132.0" promptText="First name" />
+            <TextField layoutX="219.0" layoutY="47.0" prefHeight="25.0" prefWidth="132.0" promptText="Last name" />
+            <TextField layoutX="25.0" layoutY="87.0" prefHeight="25.0" prefWidth="132.0" promptText="Login" />
+            <TextField layoutX="219.0" layoutY="87.0" prefHeight="25.0" prefWidth="132.0" promptText="Password" />
+            <RadioButton layoutX="105.0" layoutY="137.0" mnemonicParsing="false" text="Male" textFill="WHITE" />
+            <RadioButton layoutX="219.0" layoutY="137.0" mnemonicParsing="false" text="Female" textFill="WHITE" />
+            <TextField layoutX="118.0" layoutY="169.0" promptText="Country" />
+         </children>
+      </AnchorPane>
+      <Accordion />
+      <Accordion />
+      <Accordion />
+      <Accordion />
+   </children>
+</AnchorPane>
